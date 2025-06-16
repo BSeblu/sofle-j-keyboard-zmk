@@ -14,5 +14,5 @@
 # Sofle Keymap
 
 
-<img src="keymap-drawer/sofle_eyelash.svg" >
+<img src="keymap-drawer/eyelash_sofle.svg" >
 
