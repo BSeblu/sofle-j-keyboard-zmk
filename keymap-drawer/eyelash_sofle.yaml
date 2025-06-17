@@ -28,17 +28,17 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:keyboard-esc$$
-  - A
-  - S
-  - D
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: K, h: RIGHT GUI}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -60,8 +60,8 @@ layers:
   - LAYER 1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - LAYER 2
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
