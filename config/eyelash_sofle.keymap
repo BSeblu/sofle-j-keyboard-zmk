@@ -38,12 +38,12 @@
 
     hrm: hrm {
         compatible = "zmk,behavior-hold-tap";
-        label = "HRM";
+        label = "HOME ROW MOD";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <280>;
-        flavor = "balanced";
+        tapping-term-ms = <200>;
+        flavor = "hold-preferred";
         hold-trigger-on-release;
     };
 
