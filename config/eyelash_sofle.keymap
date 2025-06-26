@@ -76,7 +76,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "LAYER 1";
+            display-name = "LOWER";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -90,7 +90,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "LAYER 2";
+            label = "RAISE";
         };
 
         layer_3 {
@@ -115,16 +115,6 @@
             >;
 
             label = "Symbols";
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
